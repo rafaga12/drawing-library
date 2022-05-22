@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FileList
+  DisplayName = "E Drawing Library"
+  ProductFamilyName = "ModernComponents.EDrawingLibrary"
+  MinVSVersion = "12.0"
+  AppliesTo = "WindowsAppContainer + (CSharp | VB | VisualC)"
+  SupportPrefer32Bit = "True"
+  SupportedArchitectures = "x86;x64;ARM"
+  SupportsMultipleVersions = "Error"
+  CopyRedistToSubDirectory = "."
+  MoreInfo= "http://www.moderncomponents.com/">
+  <File Reference="ModernComponents.System.Drawing.winmd" Implementation="ModernComponents.System.Drawing.dll" />
+</FileList>

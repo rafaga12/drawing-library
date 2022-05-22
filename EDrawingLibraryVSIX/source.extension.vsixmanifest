@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="EDrawingLibrary.ModernComponents.de53dce2-66f7-4d39-9762-2988827ca4a2" Version="0.6.0.0" Language="en-US" Publisher="ModernComponents" />
+    <DisplayName>E Drawing Library</DisplayName>
+    <Description>E Drawing Library by Modern Components, helps you create nice drawings easily within Windows Store apps.</Description>
+    <MoreInfo>http://moderncomponents.com</MoreInfo>
+    <GettingStartedGuide>http://moderncomponents.com/products/DrawingLibrary/help/?topic=html/579b4fa9-5d1d-46a6-a625-a91100af2c7c.htm</GettingStartedGuide>
+    <Icon>EDrawingLibrary.ico</Icon>
+    <Tags>Drawing Library Windows Store Apps</Tags>
+  </Metadata>
+  <Installation Scope="Global" AllUsers="true" InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.ExtensionSDK" TargetPlatformIdentifier="Windows" TargetPlatformVersion="v8.1" SdkName="EDrawingLibrary" SdkVersion="0.6.0.0" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.ExtensionSDK" d:Source="File" Path="SDKManifest.xml" />
+  </Assets>
+</PackageManifest>

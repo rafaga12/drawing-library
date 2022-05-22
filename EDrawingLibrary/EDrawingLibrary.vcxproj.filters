@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>4cac7179-6c67-4971-a157-3ef13abde882</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Drawing2D">
+      <UniqueIdentifier>{524be774-0c34-4d78-ac04-40af4e03b0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{feedf45f-ac46-48b4-afab-7c2306a5263f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Pen.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Utilities\D2DUtils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\EllipticalArc.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NamespaceDoc.cpp" />
+    <ClCompile Include="Drawing2DNamespaceDoc.cpp">
+      <Filter>Drawing2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPath.cpp">
+      <Filter>Drawing2D</Filter>
+    </ClCompile>
+    <ClCompile Include="PathData.cpp">
+      <Filter>Drawing2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Pen.h" />
+    <ClInclude Include="pch.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Utilities\D2DUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\DirectXHelper.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\EllipticalArc.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NamespaceDoc.h" />
+    <ClInclude Include="Drawing2DNamespaceDoc.h">
+      <Filter>Drawing2D</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPath.h">
+      <Filter>Drawing2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PathData.h">
+      <Filter>Drawing2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing2DEnumerations.h">
+      <Filter>Drawing2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DrawingLibrary.shfbproj" />
+  </ItemGroup>
+</Project>
